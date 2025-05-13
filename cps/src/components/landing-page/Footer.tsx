@@ -1,4 +1,4 @@
-import { Terminal, Github, MessageSquare, Instagram } from "lucide-react";
+import { Terminal, Github, MessageSquare as Email, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -39,21 +39,22 @@ const Footer = () => {
 
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://github.com/UTS-CPS"
               className="text-slate-400 hover:text-indigo-300 transition-colors"
             >
               <Github className="h-6 w-6" />
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="#"
+              href="https://discord.gg/BN8HptYR9h"
               className="text-slate-400 hover:text-indigo-300 transition-colors"
             >
-              <MessageSquare className="h-6 w-6" />
+              <Email className="h-6 w-6" />
               <span className="sr-only">Discord</span>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/uts_cps/"
+              target="_blank"
               className="text-slate-400 hover:text-indigo-300 transition-colors"
             >
               <Instagram className="h-6 w-6" />
