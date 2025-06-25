@@ -5,8 +5,8 @@ import {
   Hero,
   JoinSection,
   Navigation,
-} from "./components/landing-page/";
-function App() {
+} from "../components/landing-page/";
+export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navigation></Navigation>
@@ -18,5 +18,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

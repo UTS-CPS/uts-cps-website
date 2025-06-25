@@ -35,12 +35,6 @@ const Navigation = () => {
             Join Us
           </a>
         </div>
-        <Button
-          variant="outline"
-          className="border-slate-500 text-slate-300 hover:bg-slate-600/10"
-        >
-          Sign In
-        </Button>
       </nav>
     </header>
   );

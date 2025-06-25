@@ -22,13 +22,6 @@ const Hero = () => {
             >
               Join Now <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-slate-500 text-slate-300 hover:bg-slate-700/20"
-            >
-              Learn More
-            </Button>
           </div>
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden border border-slate-600/20 bg-gradient-to-br from-slate-800/30 to-gray-900/30">
