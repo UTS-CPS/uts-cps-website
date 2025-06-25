@@ -29,6 +29,9 @@ const Navigation = () => {
          <Link href='#join' className="text-slate-300 hover:text-indigo-300 transition-colors">
             Join Us
          </Link>
+         <Link href='#join' className="text-slate-300 hover:text-indigo-300 transition-colors">
+            Contact Us
+         </Link>
         </div>
       </nav>
     </header>

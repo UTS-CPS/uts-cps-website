@@ -26,15 +26,15 @@ const Events = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-          <Card className="bg-gray-900 border-slate-600/30 hover:border-slate-500 transition-all">
+          <Card className="bg-gray-900 border-slate-600/30 hover:border-slate-500 transition-all col-start-2">
             <CardHeader>
-              <CardTitle className="text-slate-100">Coming Soon!</CardTitle>
+              <CardTitle className="text-slate-100">AllUni Programming Competition</CardTitle>
               <CardDescription className="text-slate-400">
-                December 31, 1999 • 11:59 PM
+                August 2nd, 2025
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-400">Shhh..</p>
+              <p className="text-slate-400">Compete head to head against university students from around Australia</p>
             </CardContent>
             <CardFooter>
               <Button
@@ -45,52 +45,6 @@ const Events = () => {
               </Button>
             </CardFooter>
           </Card>
-
-          <Card className="bg-gray-900 border-slate-600/30 hover:border-slate-500 transition-all">
-            <CardHeader>
-              <CardTitle className="text-slate-100">Coming Soon!</CardTitle>
-              <CardDescription className="text-slate-400">
-                December 31, 1999 • 11:59 PM
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-slate-400">Shhh..</p>
-            </CardContent>
-            <CardFooter>
-              <Button
-                variant="outline"
-                className="w-full border-slate-500 text-slate-300 hover:bg-slate-600/10"
-              >
-                Register
-              </Button>
-            </CardFooter>
-          </Card>
-
-          <Card className="bg-gray-900 border-slate-600/30 hover:border-slate-500 transition-all">
-            <CardHeader>
-              <CardTitle className="text-slate-100">Coming Soon!</CardTitle>
-              <CardDescription className="text-slate-400">
-                December 31, 1999 • 11:59 PM
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-slate-400">Shhh..</p>
-            </CardContent>
-            <CardFooter>
-              <Button
-                variant="outline"
-                className="w-full border-slate-500 text-slate-300 hover:bg-slate-600/10"
-              >
-                Register
-              </Button>
-            </CardFooter>
-          </Card>
-        </div>
-
-        <div className="flex justify-center mt-12">
-          <Button className="bg-slate-700 hover:bg-slate-600 text-white">
-            View All Events <ChevronRight className="ml-2 h-4 w-4" />
-          </Button>
         </div>
       </div>
     </section>
