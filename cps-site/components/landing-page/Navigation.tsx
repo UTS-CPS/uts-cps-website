@@ -1,12 +1,18 @@
 import { Button } from "../ui/button";
 import { Terminal } from "lucide-react";
+import Image from 'next/image'
 
 const Navigation = () => {
   return (
     <header className="container mx-auto py-6 px-4">
       <nav className="flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <Terminal className="h-6 w-6 text-indigo-300" />
+          <Image 
+            src="/images/uts_cps_purple.png"
+            width={30}
+            height={30}
+            alt="UTS Cps logo"
+          />
           <span className="font-mono text-lg font-bold text-slate-100">UTS CPS</span>
         </div>
         <div className="hidden md:flex gap-6">
