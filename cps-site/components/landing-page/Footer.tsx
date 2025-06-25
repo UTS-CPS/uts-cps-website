@@ -31,7 +31,7 @@ const Footer = () => {
                Join Us
             </Link>
             <Link href='/contact' className="text-slate-300 hover:text-indigo-300 transition-colors">
-               Contact Us
+               Contact
             </Link>
           </div>
 
