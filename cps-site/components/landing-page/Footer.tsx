@@ -1,4 +1,6 @@
 import { Terminal, Github, MessageSquare as Email, Instagram } from "lucide-react";
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -6,35 +8,31 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 mb-6 md:mb-0">
-            <Terminal className="h-6 w-6 text-indigo-300" />
+            <Image 
+              src="/images/uts_cps_purple.png"
+              width={30}
+              height={30}
+              alt="UTS Cps logo"
+             />
             <span className="font-mono text-lg font-bold text-slate-100">UTS CPS</span>
           </div>
 
           <div className="flex gap-6 mb-6 md:mb-0">
-            <a
-              href="#"
-              className="text-slate-400 hover:text-indigo-300 transition-colors"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              className="text-slate-400 hover:text-indigo-300 transition-colors"
-            >
-              Events
-            </a>
-            <a
-              href="#"
-              className="text-slate-400 hover:text-indigo-300 transition-colors"
-            >
-              Resources
-            </a>
-            <a
-              href="#"
-              className="text-slate-400 hover:text-indigo-300 transition-colors"
-            >
-              Contact
-            </a>
+            <Link href='#about' className="text-slate-300 hover:text-indigo-300 transition-colors">
+               About
+            </Link>
+            <Link href='#events' className="text-slate-300 hover:text-indigo-300 transition-colors">
+               Events
+            </Link>
+            <Link href='/resources' className="text-slate-300 hover:text-indigo-300 transition-colors">
+               Resources
+            </Link>
+            <Link href='#join' className="text-slate-300 hover:text-indigo-300 transition-colors">
+               Join Us
+            </Link>
+            <Link href='/contact' className="text-slate-300 hover:text-indigo-300 transition-colors">
+               Contact
+            </Link>
           </div>
 
           <div className="flex gap-4">

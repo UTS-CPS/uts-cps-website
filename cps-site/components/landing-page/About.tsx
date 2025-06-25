@@ -1,4 +1,5 @@
 import { Code2, Terminal, Calendar } from "lucide-react";
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -8,7 +9,12 @@ const About = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center mb-12">
-          <Code2 className="h-10 w-10 text-indigo-300 mb-4" />
+          <Image 
+            src="/images/uts_cps_purple.png"
+            width={60}
+            height={60}
+            alt="UTS Cps logo"
+          />
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-100">About Us</h2>
           <div className="w-20 h-1 bg-indigo-400 rounded mb-8"></div>
           <p className="max-w-3xl text-slate-400 text-lg">
